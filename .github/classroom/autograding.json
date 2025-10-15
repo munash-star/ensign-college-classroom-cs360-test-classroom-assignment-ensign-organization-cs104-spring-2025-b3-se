@@ -1,0 +1,44 @@
+{
+    "tests": [
+      {
+        "name": "Calculate Diameter",
+        "setup": "pip install -r requirements.txt",
+        "run": "pytest test_putting_python_to_work.py::test_diameter",
+        "input": "",
+        "output": "",
+        "comparison": "exact",
+        "timeout": 10,
+        "points": 5
+      }, 
+      {
+        "name": "Calculate Circumference",
+        "setup": "pip install -r requirements.txt",
+        "run": "pytest test_putting_python_to_work.py::test_circumference",
+        "input": "",
+        "output": "",
+        "comparison": "exact",
+        "timeout": 10,
+        "points": 5
+      }, 
+      {
+        "name": "Calculate Area",
+        "setup": "pip install -r requirements.txt",
+        "run": "pytest test_putting_python_to_work.py::test_area",
+        "input": "",
+        "output": "",
+        "comparison": "exact",
+        "timeout": 10,
+        "points": 5
+      }, 
+      {
+        "name": "Create Final Message",
+        "setup": "pip install -r requirements.txt",
+        "run": "pytest test_putting_python_to_work.py::test_print_statement",
+        "input": "",
+        "output": "",
+        "comparison": "exact",
+        "timeout": 10,
+        "points": 5
+      }
+    ]
+  }
